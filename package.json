@@ -1,0 +1,37 @@
+{
+	"name": "boilerplate-static",
+	"version": "0.2.6",
+	"description": "A boilerplate to get started for static website projects.",
+	"main": "build/index.php",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alphaweblab/boilerplate-static.git"
+	},
+	"author": "Alpha Weblab",
+	"license": "",
+	"bugs": {
+		"url": "https://github.com/alphaweblab/boilerplate-static/issues"
+	},
+	"homepage": "https://github.com/alphaweblab/boilerplate-static#README",
+	"devDependencies": {
+		"browser-sync": "^2.18.12",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^4.0.0",
+		"gulp-clean": "^0.3.2",
+		"gulp-concat": "^2.6.1",
+		"gulp-copy": "0.0.2",
+		"gulp-imagemin": "^3.3.0",
+		"gulp-inline-source": "^3.1.0",
+		"gulp-minifier": "^0.1.4",
+		"gulp-postcss": "^7.0.0",
+		"gulp-replace": "^0.6.1",
+		"gulp-sass": "^3.1.0",
+		"gulp-tinypng": "^1.0.2",
+		"jquery": "^3.2.1",
+		"tailwindcss": "^0.1.2"
+	},
+	"dependencies": {}
+}
