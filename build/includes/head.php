@@ -5,7 +5,7 @@
 	<title><?php echo $page_title; ?></title>
 	<meta name="description" content="<?php echo $page_desc; ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="stylesheets/master.css" type="text/css" inline>
+	<style type="text/css">@tailwind preflight;@tailwind utilities;</style>
 	<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css" as="style" onload="this.rel='stylesheet'">
 	<link rel="icon" href="images/favicon.png" type="image/png">
 	<script src="scripts/plugins.js" defer></script>
