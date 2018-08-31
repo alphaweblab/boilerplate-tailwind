@@ -1,37 +1,40 @@
 {
-	"name": "boilerplate-static",
-	"version": "0.2.0",
-	"description": "A boilerplate to get started for static website projects.",
+	"name": "boilerplate-tailwind",
+	"version": "0.3.0",
+	"description": "A boilerplate to get started for static website using Tailwind CSS projects.",
 	"main": "build/index.php",
 	"scripts": {
+		"watch": "gulp watch",
+		"build": "gulp build",
+		"build:image": "gulp build:image",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/alphaweblab/boilerplate-static.git"
+		"url": "git+https://github.com/alphaweblab/boilerplate-tailwind.git"
 	},
 	"author": "Alpha Weblab",
 	"license": "",
 	"bugs": {
-		"url": "https://github.com/alphaweblab/boilerplate-static/issues"
+		"url": "https://github.com/alphaweblab/boilerplate-tailwind/issues"
 	},
-	"homepage": "https://github.com/alphaweblab/boilerplate-static#README",
+	"homepage": "https://github.com/alphaweblab/boilerplate-tailwind#README",
 	"devDependencies": {
-		"browser-sync": "^2.23.6",
+		"browser-sync": "^2.24.4",
 		"gulp": "^4.0.0",
-		"gulp-autoprefixer": "^5.0.0",
+		"gulp-autoprefixer": "^6.0.0",
 		"gulp-clean": "^0.4.0",
 		"gulp-concat": "^2.6.1",
 		"gulp-copy": "1.1.0",
 		"gulp-imagemin": "^4.1.0",
 		"gulp-inline-source": "^3.1.0",
-		"gulp-minifier": "^1.2.1",
-		"gulp-postcss": "^7.0.0",
-		"gulp-replace": "^0.6.1",
-		"gulp-sass": "^3.1.0",
+		"gulp-minifier": "^1.2.2",
+		"gulp-postcss": "^8.0.0",
+		"gulp-replace": "^1.0.0",
+		"gulp-sass": "^4.0.1",
 		"gulp-tinypng": "^1.0.2",
-		"jquery": "^3.2.1",
-		"tailwindcss": "^0.4.2"
+		"jquery": "^3.3.1",
+		"tailwindcss": "^0.6.5"
 	},
 	"dependencies": {}
 }
